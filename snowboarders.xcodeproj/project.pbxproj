@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E032D2B0F6459E2D42E19F8 /* Pods_snowboardersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */; };
+		7973DE23A0364829105B1392 /* Pods_snowboarders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */; };
+		92C69C699BACA1BB0B21F47A /* Pods_snowboardersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */; };
 		D2B0DBA81EF61984001B731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA71EF61984001B731D /* AppDelegate.swift */; };
 		D2B0DBAA1EF61984001B731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA91EF61984001B731D /* ViewController.swift */; };
 		D2B0DBAD1EF61984001B731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBAB1EF61984001B731D /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboardersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.debug.xcconfig"; sourceTree = "<group>"; };
+		574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboardersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.release.xcconfig"; sourceTree = "<group>"; };
+		74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.release.xcconfig"; sourceTree = "<group>"; };
+		854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2B0DBA41EF61984001B731D /* snowboarders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snowboarders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0DBA71EF61984001B731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B0DBA91EF61984001B731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		D2B0DBC31EF61985001B731D /* snowboardersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowboardersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0DBC71EF61985001B731D /* snowboardersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowboardersUITests.swift; sourceTree = "<group>"; };
 		D2B0DBC91EF61985001B731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboarders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7973DE23A0364829105B1392 /* Pods_snowboarders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C69C699BACA1BB0B21F47A /* Pods_snowboardersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E032D2B0F6459E2D42E19F8 /* Pods_snowboardersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050D7D4A9EBC388A7B70FC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */,
+				74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */,
+				0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */,
+				5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */,
+				854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */,
+				9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		866AE055D6E9ECBC29F46FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */,
+				139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */,
+				574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2B0DB9B1EF61984001B731D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D2B0DBBB1EF61985001B731D /* snowboardersTests */,
 				D2B0DBC61EF61985001B731D /* snowboardersUITests */,
 				D2B0DBA51EF61984001B731D /* Products */,
+				050D7D4A9EBC388A7B70FC61 /* Pods */,
+				866AE055D6E9ECBC29F46FA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0DBCC1EF61985001B731D /* Build configuration list for PBXNativeTarget "snowboarders" */;
 			buildPhases = (
+				B9B5EFAF09E95171A548BD42 /* [CP] Check Pods Manifest.lock */,
 				D2B0DBA01EF61984001B731D /* Sources */,
 				D2B0DBA11EF61984001B731D /* Frameworks */,
 				D2B0DBA21EF61984001B731D /* Resources */,
+				430A3E6A9F14AD1BAC31D54F /* [CP] Embed Pods Frameworks */,
+				3F1D195A6323211FBDD225F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0DBCF1EF61985001B731D /* Build configuration list for PBXNativeTarget "snowboardersTests" */;
 			buildPhases = (
+				2D93166E276C0EC4DD7E6F74 /* [CP] Check Pods Manifest.lock */,
 				D2B0DBB41EF61985001B731D /* Sources */,
 				D2B0DBB51EF61985001B731D /* Frameworks */,
 				D2B0DBB61EF61985001B731D /* Resources */,
+				E7BDC24FF348464C5443360C /* [CP] Embed Pods Frameworks */,
+				068D92AC1C09BB8F4BE2E81B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0DBD21EF61985001B731D /* Build configuration list for PBXNativeTarget "snowboardersUITests" */;
 			buildPhases = (
+				876CFCC2189CF4F6EE2D0A7D /* [CP] Check Pods Manifest.lock */,
 				D2B0DBBF1EF61985001B731D /* Sources */,
 				D2B0DBC01EF61985001B731D /* Frameworks */,
 				D2B0DBC11EF61985001B731D /* Resources */,
+				680BE3CB7C64E7682343C3D6 /* [CP] Embed Pods Frameworks */,
+				EF575001DEA12DBAFFBC9C2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068D92AC1C09BB8F4BE2E81B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D93166E276C0EC4DD7E6F74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F1D195A6323211FBDD225F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430A3E6A9F14AD1BAC31D54F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680BE3CB7C64E7682343C3D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876CFCC2189CF4F6EE2D0A7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B5EFAF09E95171A548BD42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BDC24FF348464C5443360C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF575001DEA12DBAFFBC9C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2B0DBA01EF61984001B731D /* Sources */ = {
@@ -412,6 +599,7 @@
 		};
 		D2B0DBCD1EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = snowboarders/Info.plist;
@@ -424,6 +612,7 @@
 		};
 		D2B0DBCE1EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = snowboarders/Info.plist;
@@ -436,6 +625,7 @@
 		};
 		D2B0DBD01EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +640,7 @@
 		};
 		D2B0DBD11EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +655,7 @@
 		};
 		D2B0DBD31EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = snowboardersUITests/Info.plist;
@@ -477,6 +669,7 @@
 		};
 		D2B0DBD41EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = snowboardersUITests/Info.plist;

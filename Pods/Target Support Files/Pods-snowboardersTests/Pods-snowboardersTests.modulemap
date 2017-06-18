@@ -1,0 +1,6 @@
+framework module Pods_snowboardersTests {
+  umbrella header "Pods-snowboardersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
