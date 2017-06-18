@@ -10,6 +10,7 @@
 		0E032D2B0F6459E2D42E19F8 /* Pods_snowboardersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */; };
 		7973DE23A0364829105B1392 /* Pods_snowboarders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */; };
 		92C69C699BACA1BB0B21F47A /* Pods_snowboardersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */; };
+		D2A8A53B1EF6694000100832 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A53A1EF6694000100832 /* LogoutViewController.swift */; };
 		D2B0DBA81EF61984001B731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA71EF61984001B731D /* AppDelegate.swift */; };
 		D2B0DBAA1EF61984001B731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA91EF61984001B731D /* ViewController.swift */; };
 		D2B0DBAD1EF61984001B731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBAB1EF61984001B731D /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 		D2B0DBB21EF61984001B731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBB01EF61984001B731D /* LaunchScreen.storyboard */; };
 		D2B0DBBD1EF61985001B731D /* snowboardersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBBC1EF61985001B731D /* snowboardersTests.swift */; };
 		D2B0DBC81EF61985001B731D /* snowboardersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBC71EF61985001B731D /* snowboardersUITests.swift */; };
+		D2B0DBDE1EF6234E001B731D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBDD1EF6234E001B731D /* GoogleService-Info.plist */; };
+		D2B0DBDF1EF6234E001B731D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBDD1EF6234E001B731D /* GoogleService-Info.plist */; };
+		D2B0DBE01EF6234E001B731D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBDD1EF6234E001B731D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboardersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.debug.xcconfig"; sourceTree = "<group>"; };
+		16F8B1A8091B337901A7F648 /* Pods-snowboarders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.debug.xcconfig"; sourceTree = "<group>"; };
+		54DE50AD3D2994F1BD73B04B /* Pods-snowboardersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboardersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.release.xcconfig"; sourceTree = "<group>"; };
-		74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.release.xcconfig"; sourceTree = "<group>"; };
-		854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FCF4D62E77202F68E2C7095 /* Pods-snowboardersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7994A900C970D6672AB685 /* Pods-snowboardersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA0656779DC174DF17AE2C75 /* Pods-snowboardersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7A25D2406FCB777C87D2EC7 /* Pods-snowboarders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.release.xcconfig"; sourceTree = "<group>"; };
+		D2A8A53A1EF6694000100832 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		D2B0DBA41EF61984001B731D /* snowboarders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snowboarders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0DBA71EF61984001B731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B0DBA91EF61984001B731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		D2B0DBC31EF61985001B731D /* snowboardersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowboardersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0DBC71EF61985001B731D /* snowboardersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowboardersUITests.swift; sourceTree = "<group>"; };
 		D2B0DBC91EF61985001B731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B0DBDD1EF6234E001B731D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowboarders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,19 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		050D7D4A9EBC388A7B70FC61 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */,
-				74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */,
-				0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */,
-				5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */,
-				854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */,
-				9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		866AE055D6E9ECBC29F46FA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +105,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ADFA79A5C363AED5AF6999B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F8B1A8091B337901A7F648 /* Pods-snowboarders.debug.xcconfig */,
+				C7A25D2406FCB777C87D2EC7 /* Pods-snowboarders.release.xcconfig */,
+				6FCF4D62E77202F68E2C7095 /* Pods-snowboardersTests.debug.xcconfig */,
+				7B7994A900C970D6672AB685 /* Pods-snowboardersTests.release.xcconfig */,
+				54DE50AD3D2994F1BD73B04B /* Pods-snowboardersUITests.debug.xcconfig */,
+				BA0656779DC174DF17AE2C75 /* Pods-snowboardersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D2B0DB9B1EF61984001B731D = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +125,8 @@
 				D2B0DBBB1EF61985001B731D /* snowboardersTests */,
 				D2B0DBC61EF61985001B731D /* snowboardersUITests */,
 				D2B0DBA51EF61984001B731D /* Products */,
-				050D7D4A9EBC388A7B70FC61 /* Pods */,
 				866AE055D6E9ECBC29F46FA3 /* Frameworks */,
+				ADFA79A5C363AED5AF6999B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,9 +146,11 @@
 				D2B0DBA71EF61984001B731D /* AppDelegate.swift */,
 				D2B0DBA91EF61984001B731D /* ViewController.swift */,
 				D2B0DBAB1EF61984001B731D /* Main.storyboard */,
+				D2A8A53A1EF6694000100832 /* LogoutViewController.swift */,
 				D2B0DBAE1EF61984001B731D /* Assets.xcassets */,
 				D2B0DBB01EF61984001B731D /* LaunchScreen.storyboard */,
 				D2B0DBB31EF61984001B731D /* Info.plist */,
+				D2B0DBDD1EF6234E001B731D /* GoogleService-Info.plist */,
 			);
 			path = snowboarders;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 				TargetAttributes = {
 					D2B0DBA31EF61984001B731D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9HW2K9ZC33;
 						ProvisioningStyle = Automatic;
 					};
 					D2B0DBB71EF61985001B731D = {
@@ -282,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0DBB21EF61984001B731D /* LaunchScreen.storyboard in Resources */,
+				D2B0DBDE1EF6234E001B731D /* GoogleService-Info.plist in Resources */,
 				D2B0DBAF1EF61984001B731D /* Assets.xcassets in Resources */,
 				D2B0DBAD1EF61984001B731D /* Main.storyboard in Resources */,
 			);
@@ -291,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B0DBDF1EF6234E001B731D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B0DBE01EF6234E001B731D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0DBAA1EF61984001B731D /* ViewController.swift in Sources */,
+				D2A8A53B1EF6694000100832 /* LogoutViewController.swift in Sources */,
 				D2B0DBA81EF61984001B731D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,33 +612,39 @@
 		};
 		D2B0DBCD1EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB72AFFC51470D298D0F4E2 /* Pods-snowboarders.debug.xcconfig */;
+			baseConfigurationReference = 16F8B1A8091B337901A7F648 /* Pods-snowboarders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = 9HW2K9ZC33;
 				INFOPLIST_FILE = snowboarders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takmsk.snowboarders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D2B0DBCE1EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74FF3817A65F4AC4449244A2 /* Pods-snowboarders.release.xcconfig */;
+			baseConfigurationReference = C7A25D2406FCB777C87D2EC7 /* Pods-snowboarders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = 9HW2K9ZC33;
 				INFOPLIST_FILE = snowboarders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takmsk.snowboarders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		D2B0DBD01EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B467E5F6A07B921EEC12076 /* Pods-snowboardersTests.debug.xcconfig */;
+			baseConfigurationReference = 6FCF4D62E77202F68E2C7095 /* Pods-snowboardersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -640,7 +659,7 @@
 		};
 		D2B0DBD11EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E318752B86D0699431FE373 /* Pods-snowboardersTests.release.xcconfig */;
+			baseConfigurationReference = 7B7994A900C970D6672AB685 /* Pods-snowboardersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -655,7 +674,7 @@
 		};
 		D2B0DBD31EF61985001B731D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 854F9146F4ABC2F3C84E4189 /* Pods-snowboardersUITests.debug.xcconfig */;
+			baseConfigurationReference = 54DE50AD3D2994F1BD73B04B /* Pods-snowboardersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = snowboardersUITests/Info.plist;
@@ -669,7 +688,7 @@
 		};
 		D2B0DBD41EF61985001B731D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FDE0805D66A6F7386F0A896 /* Pods-snowboardersUITests.release.xcconfig */;
+			baseConfigurationReference = BA0656779DC174DF17AE2C75 /* Pods-snowboardersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = snowboardersUITests/Info.plist;
@@ -700,6 +719,7 @@
 				D2B0DBCE1EF61985001B731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2B0DBCF1EF61985001B731D /* Build configuration list for PBXNativeTarget "snowboardersTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +728,7 @@
 				D2B0DBD11EF61985001B731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2B0DBD21EF61985001B731D /* Build configuration list for PBXNativeTarget "snowboardersUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +737,7 @@
 				D2B0DBD41EF61985001B731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

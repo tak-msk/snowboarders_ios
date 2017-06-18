@@ -10,7 +10,7 @@ target 'snowboarders' do
   pod 'Firebase/Auth'
   pod 'FacebookCore'
   pod 'FacebookLogin'
-  pod 'FacebookShare'
+  pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
 
   target 'snowboardersTests' do
     inherit! :search_paths
