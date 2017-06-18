@@ -10,7 +10,7 @@
 		0E032D2B0F6459E2D42E19F8 /* Pods_snowboardersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574656FCC4800BE9395C03A8 /* Pods_snowboardersUITests.framework */; };
 		7973DE23A0364829105B1392 /* Pods_snowboarders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746FA8B3CC9BC371D5595CD /* Pods_snowboarders.framework */; };
 		92C69C699BACA1BB0B21F47A /* Pods_snowboardersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139793FC056BDA3E7C7D302D /* Pods_snowboardersTests.framework */; };
-		D2A8A53B1EF6694000100832 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A53A1EF6694000100832 /* LogoutViewController.swift */; };
+		D2A8A53B1EF6694000100832 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A53A1EF6694000100832 /* MyPageViewController.swift */; };
 		D2B0DBA81EF61984001B731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA71EF61984001B731D /* AppDelegate.swift */; };
 		D2B0DBAA1EF61984001B731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0DBA91EF61984001B731D /* ViewController.swift */; };
 		D2B0DBAD1EF61984001B731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0DBAB1EF61984001B731D /* Main.storyboard */; };
@@ -49,7 +49,7 @@
 		7B7994A900C970D6672AB685 /* Pods-snowboardersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersTests/Pods-snowboardersTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA0656779DC174DF17AE2C75 /* Pods-snowboardersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboardersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboardersUITests/Pods-snowboardersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7A25D2406FCB777C87D2EC7 /* Pods-snowboarders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowboarders.release.xcconfig"; path = "Pods/Target Support Files/Pods-snowboarders/Pods-snowboarders.release.xcconfig"; sourceTree = "<group>"; };
-		D2A8A53A1EF6694000100832 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		D2A8A53A1EF6694000100832 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		D2B0DBA41EF61984001B731D /* snowboarders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snowboarders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0DBA71EF61984001B731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B0DBA91EF61984001B731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 				D2B0DBA71EF61984001B731D /* AppDelegate.swift */,
 				D2B0DBA91EF61984001B731D /* ViewController.swift */,
 				D2B0DBAB1EF61984001B731D /* Main.storyboard */,
-				D2A8A53A1EF6694000100832 /* LogoutViewController.swift */,
+				D2A8A53A1EF6694000100832 /* MyPageViewController.swift */,
 				D2B0DBAE1EF61984001B731D /* Assets.xcassets */,
 				D2B0DBB01EF61984001B731D /* LaunchScreen.storyboard */,
 				D2B0DBB31EF61984001B731D /* Info.plist */,
@@ -459,7 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0DBAA1EF61984001B731D /* ViewController.swift in Sources */,
-				D2A8A53B1EF6694000100832 /* LogoutViewController.swift in Sources */,
+				D2A8A53B1EF6694000100832 /* MyPageViewController.swift in Sources */,
 				D2B0DBA81EF61984001B731D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

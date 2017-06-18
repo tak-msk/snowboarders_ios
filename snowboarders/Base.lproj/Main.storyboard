@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="140" y="119.1904047976012"/>
         </scene>
-        <!--Logout View Controller-->
+        <!--My Page View Controller-->
         <scene sceneID="t5c-TJ-oTM">
             <objects>
-                <viewController id="Kzp-8z-bso" customClass="LogoutViewController" customModule="snowboarders" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Kzp-8z-bso" customClass="MyPageViewController" customModule="snowboarders" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LYW-6O-uep"/>
                         <viewControllerLayoutGuide type="bottom" id="R9P-EG-M4p"/>
@@ -56,7 +56,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvr-BN-EUw">
-                                <rect key="frame" x="63" y="311" width="248" height="45"/>
+                                <rect key="frame" x="63" y="369" width="248" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.54509803921568623" green="0.61568627450980395" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
@@ -65,17 +65,32 @@
                                     <action selector="SignOutTapped:" destination="Kzp-8z-bso" eventType="touchUpInside" id="j6A-PA-PbR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pse-Az-lIT">
+                                <rect key="frame" x="68" y="323" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bl-at-kLV">
+                                <rect key="frame" x="125" y="323" width="186" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="kho-R1-ZrI"/>
                     <connections>
+                        <outlet property="myEmail" destination="9Bl-at-kLV" id="XFm-v0-BkI"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="signedOutSegue" id="vUO-st-e4k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amv-Rc-XSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="119"/>
+            <point key="canvasLocation" x="940" y="118.29085457271366"/>
         </scene>
     </scenes>
 </document>
